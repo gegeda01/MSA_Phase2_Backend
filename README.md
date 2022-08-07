@@ -12,3 +12,5 @@ Swagger for our configuration. It registers the Swagger middleware with optional
 
 Demonstrate an understanding of why the middleware libraries made your code easier to test:
 
+Making use of middleware, it allows me to it can instantiate the app pipeline containing only the components that I want to test. I can test through sending custom requests. Advantages like exceptions in the middleware can flow directly back to the calling test is also noticable during the unit testing.
+
