@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "eVW1KgwlkwcSY5hdFmLeojVyHf7w8hSSgNl/2dPJ+kk=",
+  "Source": "MSA_Phase2_Backend",
+  "BasePath": "_content/MSA_Phase2_Backend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
