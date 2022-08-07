@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSA_Phase2_Backend", "MSA_Phase2_Backend\MSA_Phase2_Backend.csproj", "{F5069CF0-D2C2-41D2-B3BE-592D87CED2D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSA_Phase2_Backend", "MSA_Phase2_Backend\MSA_Phase2_Backend.csproj", "{F5069CF0-D2C2-41D2-B3BE-592D87CED2D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSA_Phase2_Backend.UnitTesting", "MSA_Backend_UnitTesting\MSA_Phase2_Backend.UnitTesting.csproj", "{B9F22433-A77E-4F80-A0D6-8044E0FED0DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{F5069CF0-D2C2-41D2-B3BE-592D87CED2D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5069CF0-D2C2-41D2-B3BE-592D87CED2D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5069CF0-D2C2-41D2-B3BE-592D87CED2D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9F22433-A77E-4F80-A0D6-8044E0FED0DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9F22433-A77E-4F80-A0D6-8044E0FED0DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9F22433-A77E-4F80-A0D6-8044E0FED0DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9F22433-A77E-4F80-A0D6-8044E0FED0DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

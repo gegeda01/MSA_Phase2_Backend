@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\1019l\\source\\repos\\MSA_Phase2_Backend\\MSA_Phase2_Backend\\MSA_Phase2_Backend.csproj": {}
+    "C:\\Users\\1019l\\Documents\\GitHub\\MSA_Phase2_Backend\\MSA_Phase2_Backend\\MSA_Phase2_Backend\\MSA_Phase2_Backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\1019l\\source\\repos\\MSA_Phase2_Backend\\MSA_Phase2_Backend\\MSA_Phase2_Backend.csproj": {
+    "C:\\Users\\1019l\\Documents\\GitHub\\MSA_Phase2_Backend\\MSA_Phase2_Backend\\MSA_Phase2_Backend\\MSA_Phase2_Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1019l\\source\\repos\\MSA_Phase2_Backend\\MSA_Phase2_Backend\\MSA_Phase2_Backend.csproj",
+        "projectUniqueName": "C:\\Users\\1019l\\Documents\\GitHub\\MSA_Phase2_Backend\\MSA_Phase2_Backend\\MSA_Phase2_Backend\\MSA_Phase2_Backend.csproj",
         "projectName": "MSA_Phase2_Backend",
-        "projectPath": "C:\\Users\\1019l\\source\\repos\\MSA_Phase2_Backend\\MSA_Phase2_Backend\\MSA_Phase2_Backend.csproj",
+        "projectPath": "C:\\Users\\1019l\\Documents\\GitHub\\MSA_Phase2_Backend\\MSA_Phase2_Backend\\MSA_Phase2_Backend\\MSA_Phase2_Backend.csproj",
         "packagesPath": "C:\\Users\\1019l\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1019l\\source\\repos\\MSA_Phase2_Backend\\MSA_Phase2_Backend\\obj\\",
+        "outputPath": "C:\\Users\\1019l\\Documents\\GitHub\\MSA_Phase2_Backend\\MSA_Phase2_Backend\\MSA_Phase2_Backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\1019l\\AppData\\Roaming\\NuGet\\NuGet.Config",

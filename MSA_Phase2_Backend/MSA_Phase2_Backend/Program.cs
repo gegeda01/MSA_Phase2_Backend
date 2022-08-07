@@ -18,7 +18,17 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(c => { c.InjectStylesheet("swagger/swagger_custom.css"); 
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1"); });
+}
+else if(app.Environment.IsStaging())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI(c => {
+        var heading = Path.Combine(app.Environment.ContentRootPath, "swagger/custom_heading.html");
+        c.HeadContent = File.ReadAllText(heading);
+    });
+
 }
 
 app.UseHttpsRedirection();

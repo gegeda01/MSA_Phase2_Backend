@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-MSA_Phase2_Backend",
+      "appliesTo": "MSA_Phase2_Backend/",
+      "type": "launch"
+    }
+  ]
+}

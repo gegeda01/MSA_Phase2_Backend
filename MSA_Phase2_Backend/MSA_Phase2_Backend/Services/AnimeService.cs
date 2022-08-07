@@ -4,7 +4,7 @@ namespace MSA_Phase2_Backend.Services;
 public static class AnimeService
 {
     static List<Anime> Animes { get; }
-    static int nextId = 3;
+    static int nextId = 2;
     static AnimeService()
     {
         Animes = new List<Anime>
@@ -18,9 +18,13 @@ public static class AnimeService
 
     public static Anime? Get(int id) => Animes.FirstOrDefault(p => p.Id == id);
 
+    public static int GetLength(){
+        return nextId;
+    }
     public static void Add(Anime anime)
     {
         anime.Id = nextId++;
+        nextId++;
         Animes.Add(anime);
     }
 
