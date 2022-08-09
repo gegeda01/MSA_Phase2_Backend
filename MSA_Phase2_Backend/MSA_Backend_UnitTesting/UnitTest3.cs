@@ -6,11 +6,11 @@ namespace MSA_Phase2_Backend.UnitTesting
 {
     public class AnimeControllerTests_3
     {
-        AnimeController AN;
+        AnimeController AM;
         [SetUp]
         public void Setup()
         {
-            AN = new AnimeController();
+            AM = new AnimeController();
         }
         
 
@@ -20,7 +20,7 @@ namespace MSA_Phase2_Backend.UnitTesting
 
             var id = 3;
 
-            AN.Delete(id);
+            AM.Delete(id);
 
             int lg = AnimeService.GetLength();
 
