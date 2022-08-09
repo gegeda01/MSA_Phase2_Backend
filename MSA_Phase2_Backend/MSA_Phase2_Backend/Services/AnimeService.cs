@@ -19,12 +19,11 @@ public static class AnimeService
     public static Anime? Get(int id) => Animes.FirstOrDefault(p => p.Id == id);
 
     public static int GetLength(){
-        return nextId;
+        return Animes.Count;
     }
     public static void Add(Anime anime)
     {
         anime.Id = nextId++;
-        nextId++;
         Animes.Add(anime);
     }
 

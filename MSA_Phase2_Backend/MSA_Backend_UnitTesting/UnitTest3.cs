@@ -4,7 +4,7 @@ using MSA_Phase2_Backend.Services;
 using NSubstitute;
 namespace MSA_Phase2_Backend.UnitTesting
 {
-    public class AnimeControllerTests_1
+    public class AnimeControllerTests_3
     {
         AnimeController AN;
         [SetUp]
@@ -15,23 +15,16 @@ namespace MSA_Phase2_Backend.UnitTesting
         
 
         [Test]
-        public void Add_GetCorrectSize_Test()
+        public void Delete_GetCorrectSize_Test()
         {
 
             var id = 3;
-            var name = "One Piece";
-            var character = "Nico Robin";
 
-            var am = new Anime() { Id=id,Name=name,FamousCharacter=character};
-
-            var ai = new Anime() { Id = 5, Name = name, FamousCharacter = "Nami"};
-
-            AN.Create(am);
-            AN.Create(ai);
+            AN.Delete(id);
 
             int lg = AnimeService.GetLength();
 
-            Assert.That(lg, Is.EqualTo(id+1));
+            Assert.That(lg, Is.EqualTo(3));
         }
 
     }

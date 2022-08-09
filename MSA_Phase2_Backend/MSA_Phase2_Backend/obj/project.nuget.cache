@@ -1,15 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "HpSM3rgllUwTpMeY88FjOogaoqRfjyIg6nKRBv2Ij6Nikwv+V6qjSv1Mg+Mpjgvf4/KCvw2a2oL7gNJokPycyA==",
+  "dgSpecHash": "3mJvkKYf0nGLbHTBeGon479WJ3SsbZU9wHFAxShcyphhvUx2M4eWNd3x554dPKDo9GqEGePlAhJwpYPP5arRKg==",
   "success": true,
   "projectFilePath": "C:\\Users\\1019l\\Documents\\GitHub\\MSA_Phase2_Backend\\MSA_Phase2_Backend\\MSA_Phase2_Backend\\MSA_Phase2_Backend.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\1019l\\.nuget\\packages\\castle.core\\5.0.0\\castle.core.5.0.0.nupkg.sha512",
     "C:\\Users\\1019l\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\1019l\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\1019l\\.nuget\\packages\\nsubstitute\\4.4.0\\nsubstitute.4.4.0.nupkg.sha512",
     "C:\\Users\\1019l\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\1019l\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\1019l\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
-    "C:\\Users\\1019l\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+    "C:\\Users\\1019l\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
+    "C:\\Users\\1019l\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }
